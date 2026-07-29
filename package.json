@@ -1,0 +1,9 @@
+{
+  "name": "news-aggregator-bot",
+  "version": "1.0.0",
+  "main": "fetch-news.js",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.40.0",
+    "rss-parser": "^3.13.0"
+  }
+}
