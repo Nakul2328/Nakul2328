@@ -1,9 +1,13 @@
 {
   "name": "news-aggregator-bot",
   "version": "1.0.0",
+  "description": "Bite-sized news scraper bot",
   "main": "fetch-news.js",
+  "scripts": {
+    "start": "node fetch-news.js"
+  },
   "dependencies": {
-    "@supabase/supabase-js": "^2.40.0",
+    "@supabase/supabase-js": "^2.39.0",
     "rss-parser": "^3.13.0"
   }
 }
